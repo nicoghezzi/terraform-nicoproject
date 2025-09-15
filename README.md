@@ -20,4 +20,5 @@ This project demonstrates how to provision **AWS infrastructure** using Terrafor
 
 ## 📂 Project Structure
 
+This is the structure of my project
 
