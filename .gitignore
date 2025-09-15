@@ -1,4 +1,4 @@
-# Terraform
+echo "# Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
@@ -21,4 +21,4 @@ secret.auto.tfvars
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.db" > .gitignore
