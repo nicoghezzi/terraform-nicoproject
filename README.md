@@ -1,6 +1,5 @@
 # Cloud Infrastructure with Terraform (Multi-Env + CI/CD)
-This project demonstrates how to provision **AWS infrastructure** using Terraform with a **multi-environment setup** (`dev`, `staging`, `prod`), **remote state**, and **GitHub Actions CI/CD**.
----
+**This project demonstrates how to provision **AWS infrastructure** using Terraform with a **multi-environment setup** (`dev`, `staging`, `prod`), **remote state**, and **GitHub Actions CI/CD**---
 ## What’s Inside
 - Reusable Terraform modules**
   - VPC (Networking)
@@ -9,7 +8,7 @@ This project demonstrates how to provision **AWS infrastructure** using Terrafor
   - RDS (Managed database)
 - ✅ Multi-environment setup** (`dev`, `staging`, `prod`)
 - ✅ Remote state backend** (S3 + DynamoDB for state locking)
-- ✅ itHub Actions CI/CD**
+- ✅ GitHub Actions CI/CD**
   - Runs `terraform plan` on pull requests
   - Runs `terraform apply` on merges to `main`
 ---
