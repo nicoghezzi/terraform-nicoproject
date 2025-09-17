@@ -21,8 +21,9 @@ This project demonstrates how to provision **AWS infrastructure** using Terrafor
 ## 📂 Project Structure
 
 This is the structure of my project
-├── modules/ # Reusable infra components (ec2, vpc, s3, rds)
-├── envs/ # Environment configs (dev, staging, prod)
-├── global/ # Remote state setup
-└── .github/ # GitHub Actions workflows
+
+>modules/     # Reusable infra components (ec2, vpc, s3, rds)
+ >> envs/     # Environment configs (dev, staging, prod)
+ >> global/   # Remote state setup
+ >> .github/  # GitHub Actions workflows
 
